@@ -106,10 +106,10 @@ if(!is_null($events)){
                     break;                                      
             }
             break;
-        default:
-            $textReplyMessage = json_encode($events);
-            $replyData = new TextMessageBuilder($textReplyMessage);         
-            break;  
+       // default:
+         //   $textReplyMessage = json_encode($events);
+          //  $replyData = new TextMessageBuilder($textReplyMessage);         
+          //  break;  
     }
 }
  
