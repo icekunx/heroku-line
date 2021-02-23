@@ -89,8 +89,8 @@ if(!is_null($events)){
                     $replyData = new LocationMessageBuilder($placeName, $placeAddress, $latitude ,$longitude);              
                     break;
                 case "สติ๊กเกอร์":
-                    $stickerID = 22;
-                    $packageID = 2;
+                    $stickerID = 52002735;
+                    $packageID = 11537;
                     $replyData = new StickerMessageBuilder($packageID,$stickerID);
                     break;                                                                                                               
                 default:
