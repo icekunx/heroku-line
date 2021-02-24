@@ -67,7 +67,7 @@ if(!is_null($events)){
                     $textReplyMessage = "ท่านได้ส่งข้อความครับ";
                     $replyData = new TextMessageBuilder($textReplyMessage);
                     break;
-                case ("ภาพ"  , "ภาพ2"):
+                case "ภาพ","ภาพ2":
                     $picFullSize = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
                     $picThumbnail = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
                     $replyData = new ImageMessageBuilder($picFullSize,$picThumbnail);
