@@ -118,7 +118,7 @@ if(!is_null($events)){
                               //  ),
                             new ImagemapUriActionBuilder(
                                 'http://www.ninenik.com',
-                               // new AreaBuilder(520,0,520,699)
+                                new AreaBuilder(520,0,520,699)
                                 )
                         )); 
                     break;
