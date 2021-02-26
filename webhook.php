@@ -69,7 +69,7 @@ if(!is_null($events)){
                     break;
                 case "ภาพ":
                     $picFullSize = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
-                    $picThumbnail = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
+                    $picThumbnail = 'www.google.com';
                     $replyData = new ImageMessageBuilder($picFullSize,$picThumbnail);
                     break;
                 case "วีดีโอ":
