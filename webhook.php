@@ -109,8 +109,8 @@ if(!is_null($events)){
                     $imageMapUrl = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
                     $replyData = new ImagemapMessageBuilder(
                     $imageMapUrl,'URL',new BaseSizeBuilder(699,1040),array(
-                     //new ImagemapMessageActionBuilder('test image map',new AreaBuilder(0,0,520,699)),
-                     new ImagemapUriActionBuilder('http://www.ninenik.com',new AreaBuilder(0,0,1024,699))
+                     //new ImagemapMessageActionBuilder('MSarea',new AreaBuilder(0,0,520,699)),
+                     new ImagemapUriActionBuilder('http://www.google.com',new AreaBuilder(0,0,1024,699))
                         )); 
                     break;
 
