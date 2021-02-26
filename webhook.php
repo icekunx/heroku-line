@@ -115,7 +115,7 @@ if(!is_null($events)){
                     break;
 case "test":
 $imageMapUrl = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
-$replyData = new ImagemapMessageBuilder($imageMapUrl,"00",new BaseSizeBuilder(699,1040),array(new ImagemapUriActionBuilder('http://www.google.com',new AreaBuilder(0,0,1024,699))
+$replyData = new ImagemapMessageBuilder($imageMapUrl,(new ImagemapUriActionBuilder('http://www.google.com',new AreaBuilder(0,0,1024,699))
 )); 
 break;
 
