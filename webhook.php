@@ -108,9 +108,9 @@ if(!is_null($events)){
                 case "im":
                     $imageMapUrl = 'https://sv1.picz.in.th/images/2021/02/15/oQ57aW.md.jpg';
                     $replyData = new ImagemapMessageBuilder(
-                    $imageMapUrl,'This is Title',new BaseSizeBuilder(699,1040),array(
+                    $imageMapUrl,'URL',new BaseSizeBuilder(699,1040),array(
                      //new ImagemapMessageActionBuilder('test image map',new AreaBuilder(0,0,520,699)),
-                     new ImagemapUriActionBuilder('http://www.ninenik.com',new AreaBuilder(520,0,520,699))
+                     new ImagemapUriActionBuilder('http://www.ninenik.com',new AreaBuilder(0,0,1024,699))
                         )); 
                     break;
 
