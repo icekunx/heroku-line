@@ -112,10 +112,10 @@ if(!is_null($events)){
                         'This is Title',
                         new BaseSizeBuilder(699,1040),
                         array(
-                            new ImagemapMessageActionBuilder(
-                                'test image map',
-                                new AreaBuilder(0,0,520,699)
-                                ),
+                            //new ImagemapMessageActionBuilder(
+                             //   'test image map',
+                             //   new AreaBuilder(0,0,520,699)
+                              //  ),
                             new ImagemapUriActionBuilder(
                                 'http://www.ninenik.com',
                                 new AreaBuilder(520,0,520,699)
